@@ -1,0 +1,63 @@
+/* table{
+    background-color: rgb(247, 161, 0);
+    width: 100px;
+    height:100px;
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+.Naves{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+    
+
+
+}
+.container{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 10px 50px;
+}
+.logo img{
+    width: 39%;
+}
+.logo-text{
+    position: relative;
+    top: -35px;
+    left: 100px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.Naves{
+    margin: 32px 89px;
+    position: relative;
+    right: -50px;
+}
+.Naves li{
+    margin: 0 50px;
+    border: 1px solid white;
+    width: 120px;
+    height: 34px;
+    text-align: center;
+
+}
+a:hover{
+    font-size: 25px;
+    color: aliceblue;
+}
+
